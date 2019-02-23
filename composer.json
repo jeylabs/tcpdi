@@ -1,0 +1,28 @@
+{
+  "name": "jeylabs/tcpdi",
+  "type": "library",
+  "description": "PHP Library for jEyLaBs Mailing List Subscription",
+  "keywords": [
+    "jEyLaBs Mailing List Subscriber"
+  ],
+  "homepage": "https://github.com/jeylabs/tcpdi",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jeylabs",
+      "email": "mano.ceymplon@jeylabs.com.au",
+      "homepage": "https://jeylabs.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "jtripper/tcpdi": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jeylabs\\TCPDI\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
