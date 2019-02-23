@@ -1,6 +1,6 @@
 <?php
 
-namespace Jeylabs\PowertoolzSupportSdk\Facades;
+namespace Jeylabs\TCPDI\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
