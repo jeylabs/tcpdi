@@ -5,6 +5,12 @@
   "keywords": [
     "jEyLaBs Mailing List Subscriber"
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/majus28/tcpdi"
+    }
+  ],
   "homepage": "https://github.com/jeylabs/tcpdi",
   "license": "MIT",
   "authors": [

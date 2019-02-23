@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67ef2469d6c57f338ca530ac9993ef67",
+    "content-hash": "79ed6405b5b6e23fec130e399e2f092f",
     "packages": [
         {
             "name": "jtripper/tcpdi",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/DJTripper/tcpdi.git",
-                "reference": "83cd6942ec363bb7a9e19dba4b4759b3b1355e9d"
+                "url": "https://github.com/majus28/tcpdi.git",
+                "reference": "0a5fa1c4788e93aead9582f9f925290a801060a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DJTripper/tcpdi/zipball/83cd6942ec363bb7a9e19dba4b4759b3b1355e9d",
-                "reference": "83cd6942ec363bb7a9e19dba4b4759b3b1355e9d",
+                "url": "https://api.github.com/repos/majus28/tcpdi/zipball/0a5fa1c4788e93aead9582f9f925290a801060a9",
+                "reference": "0a5fa1c4788e93aead9582f9f925290a801060a9",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,6 @@
                     "tcpdi_parser.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -45,12 +44,15 @@
             ],
             "description": "TCPDI is a PHP class for importing PDF to use with TCPDF",
             "keywords": [
-                "TCPDF",
-                "pdf",
+                "PDF",
+                "tcpdf",
                 "tcpdi",
                 "tcpdi_parser"
             ],
-            "time": "2018-06-07T07:59:42+00:00"
+            "support": {
+                "source": "https://github.com/majus28/tcpdi/tree/master"
+            },
+            "time": "2019-02-23T09:22:43+00:00"
         },
         {
             "name": "tecnickcom/tcpdf",
