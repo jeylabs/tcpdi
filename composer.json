@@ -1,15 +1,12 @@
 {
   "name": "jeylabs/tcpdi",
   "type": "library",
-  "description": "PHP Library for jEyLaBs Mailing List Subscription",
+  "description": "TCPDI is a PHP class for importing PDF to use with TCPDF",
   "keywords": [
-    "jEyLaBs Mailing List Subscriber"
-  ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/majus28/tcpdi"
-    }
+    "PDF",
+    "tcpdi",
+    "tcpdi_parser",
+    "tcpdf"
   ],
   "homepage": "https://github.com/jeylabs/tcpdi",
   "license": "MIT",
@@ -22,7 +19,8 @@
     }
   ],
   "require": {
-    "jtripper/tcpdi": "dev-master"
+    "php": ">=7.0",
+    "tecnickcom/tcpdf": "6.2.*"
   },
   "autoload": {
     "psr-4": {
