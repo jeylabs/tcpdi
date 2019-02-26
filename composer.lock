@@ -4,56 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79ed6405b5b6e23fec130e399e2f092f",
+    "content-hash": "bee7f96f54cd2c75a207fa854e7ad888",
     "packages": [
-        {
-            "name": "jtripper/tcpdi",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/majus28/tcpdi.git",
-                "reference": "0a5fa1c4788e93aead9582f9f925290a801060a9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/majus28/tcpdi/zipball/0a5fa1c4788e93aead9582f9f925290a801060a9",
-                "reference": "0a5fa1c4788e93aead9582f9f925290a801060a9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "tecnickcom/tcpdf": "6.2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "fpdf_tpl.php",
-                    "tcpdi.php",
-                    "tcpdi_parser.php"
-                ]
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Nicola Asuni",
-                    "email": "info@tecnick.com",
-                    "homepage": "http://nicolaasuni.tecnick.com"
-                }
-            ],
-            "description": "TCPDI is a PHP class for importing PDF to use with TCPDF",
-            "keywords": [
-                "PDF",
-                "tcpdf",
-                "tcpdi",
-                "tcpdi_parser"
-            ],
-            "support": {
-                "source": "https://github.com/majus28/tcpdi/tree/master"
-            },
-            "time": "2019-02-23T09:22:43+00:00"
-        },
         {
             "name": "tecnickcom/tcpdf",
             "version": "6.2.26",
@@ -120,11 +72,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "jtripper/tcpdi": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.0"
+    },
     "platform-dev": []
 }
