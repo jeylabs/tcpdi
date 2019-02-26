@@ -39,6 +39,7 @@ namespace Jeylabs\TCPDI;
 // Description : This is a PHP class for parsing PDF documents.
 //
 //============================================================+
+use TCPDF_FILTERS;
 
 /**
  * @file
