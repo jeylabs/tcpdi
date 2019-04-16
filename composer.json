@@ -18,9 +18,15 @@
       "role": "Developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/majus28/pdf"
+    }
+  ],
   "require": {
     "php": ">=7.0",
-    "tecnickcom/tcpdf": "6.2.*"
+    "majus28/pdf": "dev-master"
   },
   "autoload": {
     "psr-4": {
