@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb1c6204644fa369a56a00b23f326c49",
+    "content-hash": "40cb04757bcfb2093b645ee9ab61c9b1",
     "packages": [
         {
             "name": "majus28/pdf",
-            "version": "dev-master",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/majus28/pdf.git",
@@ -66,7 +66,7 @@
                 "tcpdf"
             ],
             "support": {
-                "source": "https://github.com/majus28/pdf/tree/master",
+                "source": "https://github.com/majus28/pdf/tree/1.1",
                 "issues": "https://github.com/majus28/pdf/issues"
             },
             "time": "2019-04-16T23:50:24+00:00"
@@ -74,11 +74,9 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "majus28/pdf": 20
-    },
-    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.0"
