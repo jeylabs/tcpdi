@@ -32,7 +32,5 @@
     "psr-4": {
       "Jeylabs\\TCPDI\\": "src"
     }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+  }
 }
