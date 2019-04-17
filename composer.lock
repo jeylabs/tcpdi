@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40cb04757bcfb2093b645ee9ab61c9b1",
+    "content-hash": "92a00d33602840a532a3139675d66760",
     "packages": [
         {
             "name": "majus28/pdf",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/majus28/pdf.git",
-                "reference": "4ad25417fbf9001f5513cd16207cf3bc9d38938c"
+                "reference": "062452abc1239788b4cdee29016fcdf4fc1835ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/majus28/pdf/zipball/4ad25417fbf9001f5513cd16207cf3bc9d38938c",
-                "reference": "4ad25417fbf9001f5513cd16207cf3bc9d38938c",
+                "url": "https://api.github.com/repos/majus28/pdf/zipball/062452abc1239788b4cdee29016fcdf4fc1835ad",
+                "reference": "062452abc1239788b4cdee29016fcdf4fc1835ad",
                 "shasum": ""
             },
             "require": {
@@ -44,6 +44,7 @@
                     "include/barcodes/qrcode.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-3.0"
             ],
@@ -57,26 +58,22 @@
             "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
             "homepage": "http://www.tcpdf.org/",
             "keywords": [
-                "PDF",
                 "PDFD32000-2008",
+                "TCPDF",
                 "barcodes",
                 "datamatrix",
+                "pdf",
                 "pdf417",
-                "qrcode",
-                "tcpdf"
+                "qrcode"
             ],
-            "support": {
-                "source": "https://github.com/majus28/pdf/tree/1.1",
-                "issues": "https://github.com/majus28/pdf/issues"
-            },
-            "time": "2019-04-16T23:50:24+00:00"
+            "time": "2019-04-17T01:38:29+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.0"

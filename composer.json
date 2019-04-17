@@ -18,21 +18,15 @@
       "role": "Developer"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/majus28/pdf"
-    }
-  ],
   "require": {
     "php": ">=7.0",
-    "majus28/pdf": "1.2"
+    "majus28/pdf": "^1.2"
   },
   "autoload": {
     "psr-4": {
       "Jeylabs\\TCPDI\\": "src"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
