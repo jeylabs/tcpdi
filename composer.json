@@ -26,12 +26,13 @@
   ],
   "require": {
     "php": ">=7.0",
-    "majus28/pdf": "1.1"
+    "majus28/pdf": "1.2"
   },
   "autoload": {
     "psr-4": {
       "Jeylabs\\TCPDI\\": "src"
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
