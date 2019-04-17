@@ -20,7 +20,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "majus28/pdf": "^1.2"
+    "majus28/pdf": "dev-master"
   },
   "autoload": {
     "psr-4": {

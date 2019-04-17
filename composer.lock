@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92a00d33602840a532a3139675d66760",
+    "content-hash": "949725feaad5d877a74ed372f7b2b2c6",
     "packages": [
         {
             "name": "majus28/pdf",
-            "version": "1.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/majus28/pdf.git",
-                "reference": "062452abc1239788b4cdee29016fcdf4fc1835ad"
+                "reference": "4dbf6c54082921d572e78ceed3521fc15dfdf971"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/majus28/pdf/zipball/062452abc1239788b4cdee29016fcdf4fc1835ad",
-                "reference": "062452abc1239788b4cdee29016fcdf4fc1835ad",
+                "url": "https://api.github.com/repos/majus28/pdf/zipball/4dbf6c54082921d572e78ceed3521fc15dfdf971",
+                "reference": "4dbf6c54082921d572e78ceed3521fc15dfdf971",
                 "shasum": ""
             },
             "require": {
@@ -66,13 +66,15 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2019-04-17T01:38:29+00:00"
+            "time": "2019-04-17T02:11:00+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "majus28/pdf": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
